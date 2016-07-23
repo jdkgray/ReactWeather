@@ -6,19 +6,19 @@ var About = (props) => {
     <div>
       <h1 className="text-center">About</h1>
       <p>This weather app was created using the following resources:</p>
-      <ol>
+      <ul>
         <li>
-          <a href="http://openweathermap.org/api">Open Weather Map API</a>
+          <a href="http://openweathermap.org/api">Open Weather Map API</a>-I used this to gather weather information.
         </li>
         <li>
-          <a href="https://github.com/">Git Hub</a>
+          <a href="https://github.com/">Git Hub</a>-This is where I store my code on the internet.
         </li>
         <li>
-          <a href="https://www.heroku.com/home">Heroku</a>
+          <a href="https://www.heroku.com/home">Heroku</a>-This is where I deploy my app.
         </li>
-      </ol>
+      </ul>
       <p>I frequently check the weather for the following locations:</p>
-      <ol>
+      <ul>
         <li>
           <Link to='/?location=Pleasant Grove'>Pleasant Grove, UT</Link>
         </li>
@@ -28,7 +28,7 @@ var About = (props) => {
         <li>
           <Link to='/?location=Lincoln City'>Lincoln City, OR</Link>
         </li>
-      </ol>
+      </ul>
     </div>
   )
 };
